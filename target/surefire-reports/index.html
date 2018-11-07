@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WalmartTest">
+              <span class="suite-name border-passed">WalmartTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WalmartTest">
+                    <span>E:\RBC_Automation\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WalmartTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WalmartTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WalmartTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WalmartTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WalmartTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WalmartTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WalmartTest" class="hide-methods passed suite-WalmartTest"> (hide)</a> <!-- hide-methods passed suite-WalmartTest -->
+                      <a href="#" panel-name="suite-WalmartTest" class="show-methods passed suite-WalmartTest"> (show)</a> <!-- show-methods passed suite-WalmartTest -->
+                    </span>
+                    <div class="method-list-content passed suite-WalmartTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC10_Negative_FirstNameLengthMore" hash-for-method="Negative_FirstNameLengthMore">Negative_FirstNameLengthMore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC02_Negative_FirstNameNull" hash-for-method="Negative_FirstNameNull">Negative_FirstNameNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC03_Negative_FirstNameSpaces" hash-for-method="Negative_FirstNameSpaces">Negative_FirstNameSpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters" hash-for-method="Negative_FirstNamewithNonCharacters">Negative_FirstNamewithNonCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter" hash-for-method="Negative_InvalidPhoneNumberwithCharacter">Negative_InvalidPhoneNumberwithCharacter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC11_Negative_LastNameLengthMore" hash-for-method="Negative_LastNameLengthMore">Negative_LastNameLengthMore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC04_Negative_LastNameNull" hash-for-method="Negative_LastNameNull">Negative_LastNameNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC05_Negative_LastNameSpaces" hash-for-method="Negative_LastNameSpaces">Negative_LastNameSpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters" hash-for-method="Negative_LastNamewithNonCharacters">Negative_LastNamewithNonCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC06_Negative_PhoneNull" hash-for-method="Negative_PhoneNull">Negative_PhoneNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC12_Negative_PhoneNumberMorelength" hash-for-method="Negative_PhoneNumberMorelength">Negative_PhoneNumberMorelength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC07_Negative_PhoneSpaces" hash-for-method="Negative_PhoneSpaces">Negative_PhoneSpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01" hash-for-method="Positive_ValidPhoneNumberwithNonNumeric_01">Positive_ValidPhoneNumberwithNonNumeric_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02" hash-for-method="Positive_ValidPhoneNumberwithNonNumeric_02">Positive_ValidPhoneNumberwithNonNumeric_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03" hash-for-method="Positive_ValidPhoneNumberwithNonNumeric_03">Positive_ValidPhoneNumberwithNonNumeric_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04" hash-for-method="Positive_ValidPhoneNumberwithNonNumeric_04">Positive_ValidPhoneNumberwithNonNumeric_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05" hash-for-method="Positive_ValidPhoneNumberwithNonNumeric_05">Positive_ValidPhoneNumberwithNonNumeric_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WalmartTest" title="com.test.TestSuite.TC01_Positive_ValidValues" hash-for-method="Positive_ValidValues">Positive_ValidValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WalmartTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WalmartTest" class="panel WalmartTest">
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC07_Negative_PhoneSpaces</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_PhoneSpaces">
+                  </a> <!-- Negative_PhoneSpaces -->
+                  <span class="method-name">Negative_PhoneSpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_FirstNamewithNonCharacters">
+                  </a> <!-- Negative_FirstNamewithNonCharacters -->
+                  <span class="method-name">Negative_FirstNamewithNonCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidPhoneNumberwithNonNumeric_02">
+                  </a> <!-- Positive_ValidPhoneNumberwithNonNumeric_02 -->
+                  <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_LastNamewithNonCharacters">
+                  </a> <!-- Negative_LastNamewithNonCharacters -->
+                  <span class="method-name">Negative_LastNamewithNonCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC06_Negative_PhoneNull</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_PhoneNull">
+                  </a> <!-- Negative_PhoneNull -->
+                  <span class="method-name">Negative_PhoneNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_InvalidPhoneNumberwithCharacter">
+                  </a> <!-- Negative_InvalidPhoneNumberwithCharacter -->
+                  <span class="method-name">Negative_InvalidPhoneNumberwithCharacter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC02_Negative_FirstNameNull</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_FirstNameNull">
+                  </a> <!-- Negative_FirstNameNull -->
+                  <span class="method-name">Negative_FirstNameNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidPhoneNumberwithNonNumeric_01">
+                  </a> <!-- Positive_ValidPhoneNumberwithNonNumeric_01 -->
+                  <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC04_Negative_LastNameNull</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_LastNameNull">
+                  </a> <!-- Negative_LastNameNull -->
+                  <span class="method-name">Negative_LastNameNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC05_Negative_LastNameSpaces</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_LastNameSpaces">
+                  </a> <!-- Negative_LastNameSpaces -->
+                  <span class="method-name">Negative_LastNameSpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC10_Negative_FirstNameLengthMore</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_FirstNameLengthMore">
+                  </a> <!-- Negative_FirstNameLengthMore -->
+                  <span class="method-name">Negative_FirstNameLengthMore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC03_Negative_FirstNameSpaces</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_FirstNameSpaces">
+                  </a> <!-- Negative_FirstNameSpaces -->
+                  <span class="method-name">Negative_FirstNameSpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC01_Positive_ValidValues</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidValues">
+                  </a> <!-- Positive_ValidValues -->
+                  <span class="method-name">Positive_ValidValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidPhoneNumberwithNonNumeric_04">
+                  </a> <!-- Positive_ValidPhoneNumberwithNonNumeric_04 -->
+                  <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidPhoneNumberwithNonNumeric_03">
+                  </a> <!-- Positive_ValidPhoneNumberwithNonNumeric_03 -->
+                  <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC12_Negative_PhoneNumberMorelength</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_PhoneNumberMorelength">
+                  </a> <!-- Negative_PhoneNumberMorelength -->
+                  <span class="method-name">Negative_PhoneNumberMorelength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Positive_ValidPhoneNumberwithNonNumeric_05">
+                  </a> <!-- Positive_ValidPhoneNumberwithNonNumeric_05 -->
+                  <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+          <div class="suite-WalmartTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestSuite.TC11_Negative_LastNameLengthMore</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negative_LastNameLengthMore">
+                  </a> <!-- Negative_LastNameLengthMore -->
+                  <span class="method-name">Negative_LastNameLengthMore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WalmartTest-class-passed -->
+        </div> <!-- panel WalmartTest -->
+        <div panel-name="test-xml-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\RBC_Automation\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;WalmartTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;MainPageValidation_Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC01_Positive_ValidValues&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC02_Negative_FirstNameNull&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC03_Negative_FirstNameSpaces&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC04_Negative_LastNameNull&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC05_Negative_LastNameSpaces&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC06_Negative_PhoneNull&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC07_Negative_PhoneSpaces&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC10_Negative_FirstNameLengthMore&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC11_Negative_LastNameLengthMore&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC12_Negative_PhoneNumberMorelength&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05&quot;/&gt;
+      &lt;class name=&quot;com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MainPageValidation_Chrome --&gt;
+&lt;/suite&gt; &lt;!-- WalmartTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WalmartTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MainPageValidation_Chrome (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WalmartTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WalmartTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WalmartTest');
+function tableData_WalmartTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Negative_FirstNamewithNonCharacters')
+data.setCell(0, 2, 'com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters')
+data.setCell(0, 3, 4874);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Negative_PhoneNull')
+data.setCell(1, 2, 'com.test.TestSuite.TC06_Negative_PhoneNull')
+data.setCell(1, 3, 3840);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Positive_ValidPhoneNumberwithNonNumeric_02')
+data.setCell(2, 2, 'com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02')
+data.setCell(2, 3, 3672);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Negative_FirstNameLengthMore')
+data.setCell(3, 2, 'com.test.TestSuite.TC10_Negative_FirstNameLengthMore')
+data.setCell(3, 3, 3625);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Negative_LastNameLengthMore')
+data.setCell(4, 2, 'com.test.TestSuite.TC11_Negative_LastNameLengthMore')
+data.setCell(4, 3, 3467);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Positive_ValidValues')
+data.setCell(5, 2, 'com.test.TestSuite.TC01_Positive_ValidValues')
+data.setCell(5, 3, 3444);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Negative_FirstNameNull')
+data.setCell(6, 2, 'com.test.TestSuite.TC02_Negative_FirstNameNull')
+data.setCell(6, 3, 3443);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Positive_ValidPhoneNumberwithNonNumeric_03')
+data.setCell(7, 2, 'com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03')
+data.setCell(7, 3, 3291);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Positive_ValidPhoneNumberwithNonNumeric_01')
+data.setCell(8, 2, 'com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01')
+data.setCell(8, 3, 3205);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Negative_FirstNameSpaces')
+data.setCell(9, 2, 'com.test.TestSuite.TC03_Negative_FirstNameSpaces')
+data.setCell(9, 3, 3203);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Positive_ValidPhoneNumberwithNonNumeric_04')
+data.setCell(10, 2, 'com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04')
+data.setCell(10, 3, 3172);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Positive_ValidPhoneNumberwithNonNumeric_05')
+data.setCell(11, 2, 'com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05')
+data.setCell(11, 3, 3169);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Negative_PhoneNumberMorelength')
+data.setCell(12, 2, 'com.test.TestSuite.TC12_Negative_PhoneNumberMorelength')
+data.setCell(12, 3, 3163);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Negative_LastNameSpaces')
+data.setCell(13, 2, 'com.test.TestSuite.TC05_Negative_LastNameSpaces')
+data.setCell(13, 3, 3162);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Negative_LastNameNull')
+data.setCell(14, 2, 'com.test.TestSuite.TC04_Negative_LastNameNull')
+data.setCell(14, 3, 3107);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Negative_InvalidPhoneNumberwithCharacter')
+data.setCell(15, 2, 'com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter')
+data.setCell(15, 3, 3098);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Negative_LastNamewithNonCharacters')
+data.setCell(16, 2, 'com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters')
+data.setCell(16, 3, 3092);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Negative_PhoneSpaces')
+data.setCell(17, 2, 'com.test.TestSuite.TC07_Negative_PhoneSpaces')
+data.setCell(17, 3, 3041);
+window.suiteTableData['WalmartTest']= { tableData: data, tableDiv: 'times-div-WalmartTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-WalmartTest">
+              </div> <!-- times-div-WalmartTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WalmartTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">17 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC07_Negative_PhoneSpaces</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC06_Negative_PhoneNull</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC02_Negative_FirstNameNull</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC04_Negative_LastNameNull</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC05_Negative_LastNameSpaces</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC03_Negative_FirstNameSpaces</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC10_Negative_FirstNameLengthMore</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC12_Negative_PhoneNumberMorelength</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.TestSuite.TC11_Negative_LastNameLengthMore</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftertest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WalmartTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC01_Positive_ValidValues</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidValues</span>
+                <span class="method-start">6442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC02_Negative_FirstNameNull</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">9893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_FirstNameNull</span>
+                <span class="method-start">13928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC03_Negative_FirstNameSpaces</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_FirstNameSpaces</span>
+                <span class="method-start">21463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC04_Negative_LastNameNull</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">24669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_LastNameNull</span>
+                <span class="method-start">28554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC05_Negative_LastNameSpaces</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">31663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_LastNameSpaces</span>
+                <span class="method-start">35705 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC06_Negative_PhoneNull</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">38869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_PhoneNull</span>
+                <span class="method-start">43924 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC07_Negative_PhoneSpaces</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">47766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_PhoneSpaces</span>
+                <span class="method-start">51564 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">54607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_FirstNamewithNonCharacters</span>
+                <span class="method-start">58616 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">63492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_LastNamewithNonCharacters</span>
+                <span class="method-start">68131 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC10_Negative_FirstNameLengthMore</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">71225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_FirstNameLengthMore</span>
+                <span class="method-start">75340 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC11_Negative_LastNameLengthMore</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">78967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_LastNameLengthMore</span>
+                <span class="method-start">83153 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC12_Negative_PhoneNumberMorelength</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">86622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_PhoneNumberMorelength</span>
+                <span class="method-start">90736 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">93901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_01</span>
+                <span class="method-start">97768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">100974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_02</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">108685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_03</span>
+                <span class="method-start">112357 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">115649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_04</span>
+                <span class="method-start">119797 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">122970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Positive_ValidPhoneNumberwithNonNumeric_05</span>
+                <span class="method-start">126983 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethode(CHROME)</span>
+                <span class="method-start">130154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Negative_InvalidPhoneNumberwithCharacter</span>
+                <span class="method-start">134272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestSuite.TC01_Positive_ValidValues</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">137371 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

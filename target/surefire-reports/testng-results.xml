@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="17" total="35" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalmartTest" duration-ms="137535" started-at="2018-11-03T14:45:32Z" finished-at="2018-11-03T14:47:50Z">
+    <groups>
+    </groups>
+    <test name="MainPageValidation_Chrome" duration-ms="137535" started-at="2018-11-03T14:45:32Z" finished-at="2018-11-03T14:47:50Z">
+      <class name="com.test.TestSuite.TC04_Negative_LastNameNull">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC04_Negative_LastNameNull@1f554b06]" name="beforemethode" is-config="true" duration-ms="3885" started-at="2018-11-03T14:45:57Z" finished-at="2018-11-03T14:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_LastNameNull()[pri:0, instance:com.test.TestSuite.TC04_Negative_LastNameNull@1f554b06]" name="Negative_LastNameNull" duration-ms="3107" started-at="2018-11-03T14:46:01Z" finished-at="2018-11-03T14:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_LastNameNull -->
+      </class> <!-- com.test.TestSuite.TC04_Negative_LastNameNull -->
+      <class name="com.test.TestSuite.TC02_Negative_FirstNameNull">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC02_Negative_FirstNameNull@76707e36]" name="beforemethode" is-config="true" duration-ms="4035" started-at="2018-11-03T14:45:42Z" finished-at="2018-11-03T14:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_FirstNameNull()[pri:0, instance:com.test.TestSuite.TC02_Negative_FirstNameNull@76707e36]" name="Negative_FirstNameNull" duration-ms="3443" started-at="2018-11-03T14:45:46Z" finished-at="2018-11-03T14:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_FirstNameNull -->
+      </class> <!-- com.test.TestSuite.TC02_Negative_FirstNameNull -->
+      <class name="com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05@4e7dc304]" name="beforemethode" is-config="true" duration-ms="4013" started-at="2018-11-03T14:47:35Z" finished-at="2018-11-03T14:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidPhoneNumberwithNonNumeric_05()[pri:0, instance:com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05@4e7dc304]" name="Positive_ValidPhoneNumberwithNonNumeric_05" duration-ms="3169" started-at="2018-11-03T14:47:39Z" finished-at="2018-11-03T14:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidPhoneNumberwithNonNumeric_05 -->
+      </class> <!-- com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05 -->
+      <class name="com.test.TestSuite.TC01_Positive_ValidValues">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC01_Positive_ValidValues@1e6d1014]" name="beforemethode" is-config="true" duration-ms="6442" started-at="2018-11-03T14:45:32Z" finished-at="2018-11-03T14:45:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidValues()[pri:0, instance:com.test.TestSuite.TC01_Positive_ValidValues@1e6d1014]" name="Positive_ValidValues" duration-ms="3444" started-at="2018-11-03T14:45:39Z" finished-at="2018-11-03T14:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidValues -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.test.TestSuite.TC01_Positive_ValidValues@1e6d1014]" name="aftertest" is-config="true" duration-ms="135" started-at="2018-11-03T14:47:49Z" finished-at="2018-11-03T14:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.test.TestSuite.TC01_Positive_ValidValues -->
+      <class name="com.test.TestSuite.TC10_Negative_FirstNameLengthMore">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC10_Negative_FirstNameLengthMore@711f39f9]" name="beforemethode" is-config="true" duration-ms="4115" started-at="2018-11-03T14:46:43Z" finished-at="2018-11-03T14:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_FirstNameLengthMore()[pri:0, instance:com.test.TestSuite.TC10_Negative_FirstNameLengthMore@711f39f9]" name="Negative_FirstNameLengthMore" duration-ms="3625" started-at="2018-11-03T14:46:47Z" finished-at="2018-11-03T14:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_FirstNameLengthMore -->
+      </class> <!-- com.test.TestSuite.TC10_Negative_FirstNameLengthMore -->
+      <class name="com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03@23faf8f2]" name="beforemethode" is-config="true" duration-ms="3672" started-at="2018-11-03T14:47:21Z" finished-at="2018-11-03T14:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidPhoneNumberwithNonNumeric_03()[pri:0, instance:com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03@23faf8f2]" name="Positive_ValidPhoneNumberwithNonNumeric_03" duration-ms="3291" started-at="2018-11-03T14:47:24Z" finished-at="2018-11-03T14:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidPhoneNumberwithNonNumeric_03 -->
+      </class> <!-- com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03 -->
+      <class name="com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters@3fd7a715]" name="beforemethode" is-config="true" duration-ms="4639" started-at="2018-11-03T14:46:36Z" finished-at="2018-11-03T14:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_LastNamewithNonCharacters()[pri:0, instance:com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters@3fd7a715]" name="Negative_LastNamewithNonCharacters" duration-ms="3092" started-at="2018-11-03T14:46:40Z" finished-at="2018-11-03T14:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_LastNamewithNonCharacters -->
+      </class> <!-- com.test.TestSuite.TC09_Negative_LastNamewithNonCharacters -->
+      <class name="com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01@51cdd8a]" name="beforemethode" is-config="true" duration-ms="3867" started-at="2018-11-03T14:47:06Z" finished-at="2018-11-03T14:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidPhoneNumberwithNonNumeric_01()[pri:0, instance:com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01@51cdd8a]" name="Positive_ValidPhoneNumberwithNonNumeric_01" duration-ms="3205" started-at="2018-11-03T14:47:10Z" finished-at="2018-11-03T14:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidPhoneNumberwithNonNumeric_01 -->
+      </class> <!-- com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01 -->
+      <class name="com.test.TestSuite.TC06_Negative_PhoneNull">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC06_Negative_PhoneNull@1c3a4799]" name="beforemethode" is-config="true" duration-ms="5054" started-at="2018-11-03T14:46:11Z" finished-at="2018-11-03T14:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_PhoneNull()[pri:0, instance:com.test.TestSuite.TC06_Negative_PhoneNull@1c3a4799]" name="Negative_PhoneNull" duration-ms="3840" started-at="2018-11-03T14:46:16Z" finished-at="2018-11-03T14:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_PhoneNull -->
+      </class> <!-- com.test.TestSuite.TC06_Negative_PhoneNull -->
+      <class name="com.test.TestSuite.TC05_Negative_LastNameSpaces">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC05_Negative_LastNameSpaces@694e1548]" name="beforemethode" is-config="true" duration-ms="4042" started-at="2018-11-03T14:46:04Z" finished-at="2018-11-03T14:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_LastNameSpaces()[pri:0, instance:com.test.TestSuite.TC05_Negative_LastNameSpaces@694e1548]" name="Negative_LastNameSpaces" duration-ms="3162" started-at="2018-11-03T14:46:08Z" finished-at="2018-11-03T14:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_LastNameSpaces -->
+      </class> <!-- com.test.TestSuite.TC05_Negative_LastNameSpaces -->
+      <class name="com.test.TestSuite.TC07_Negative_PhoneSpaces">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC07_Negative_PhoneSpaces@131276c2]" name="beforemethode" is-config="true" duration-ms="3798" started-at="2018-11-03T14:46:20Z" finished-at="2018-11-03T14:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_PhoneSpaces()[pri:0, instance:com.test.TestSuite.TC07_Negative_PhoneSpaces@131276c2]" name="Negative_PhoneSpaces" duration-ms="3041" started-at="2018-11-03T14:46:24Z" finished-at="2018-11-03T14:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_PhoneSpaces -->
+      </class> <!-- com.test.TestSuite.TC07_Negative_PhoneSpaces -->
+      <class name="com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter@64729b1e]" name="beforemethode" is-config="true" duration-ms="4118" started-at="2018-11-03T14:47:42Z" finished-at="2018-11-03T14:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_InvalidPhoneNumberwithCharacter()[pri:0, instance:com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter@64729b1e]" name="Negative_InvalidPhoneNumberwithCharacter" duration-ms="3098" started-at="2018-11-03T14:47:46Z" finished-at="2018-11-03T14:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_InvalidPhoneNumberwithCharacter -->
+      </class> <!-- com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter -->
+      <class name="com.test.TestSuite.TC12_Negative_PhoneNumberMorelength">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC12_Negative_PhoneNumberMorelength@7f13d6e]" name="beforemethode" is-config="true" duration-ms="4114" started-at="2018-11-03T14:46:59Z" finished-at="2018-11-03T14:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_PhoneNumberMorelength()[pri:0, instance:com.test.TestSuite.TC12_Negative_PhoneNumberMorelength@7f13d6e]" name="Negative_PhoneNumberMorelength" duration-ms="3163" started-at="2018-11-03T14:47:03Z" finished-at="2018-11-03T14:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_PhoneNumberMorelength -->
+      </class> <!-- com.test.TestSuite.TC12_Negative_PhoneNumberMorelength -->
+      <class name="com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters@26aa12dd]" name="beforemethode" is-config="true" duration-ms="4009" started-at="2018-11-03T14:46:27Z" finished-at="2018-11-03T14:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_FirstNamewithNonCharacters()[pri:0, instance:com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters@26aa12dd]" name="Negative_FirstNamewithNonCharacters" duration-ms="4874" started-at="2018-11-03T14:46:31Z" finished-at="2018-11-03T14:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_FirstNamewithNonCharacters -->
+      </class> <!-- com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters -->
+      <class name="com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04@2d6eabae]" name="beforemethode" is-config="true" duration-ms="4148" started-at="2018-11-03T14:47:28Z" finished-at="2018-11-03T14:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidPhoneNumberwithNonNumeric_04()[pri:0, instance:com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04@2d6eabae]" name="Positive_ValidPhoneNumberwithNonNumeric_04" duration-ms="3172" started-at="2018-11-03T14:47:32Z" finished-at="2018-11-03T14:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidPhoneNumberwithNonNumeric_04 -->
+      </class> <!-- com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04 -->
+      <class name="com.test.TestSuite.TC11_Negative_LastNameLengthMore">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC11_Negative_LastNameLengthMore@71bbf57e]" name="beforemethode" is-config="true" duration-ms="4186" started-at="2018-11-03T14:46:51Z" finished-at="2018-11-03T14:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_LastNameLengthMore()[pri:0, instance:com.test.TestSuite.TC11_Negative_LastNameLengthMore@71bbf57e]" name="Negative_LastNameLengthMore" duration-ms="3467" started-at="2018-11-03T14:46:55Z" finished-at="2018-11-03T14:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_LastNameLengthMore -->
+      </class> <!-- com.test.TestSuite.TC11_Negative_LastNameLengthMore -->
+      <class name="com.test.TestSuite.TC03_Negative_FirstNameSpaces">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC03_Negative_FirstNameSpaces@614ddd49]" name="beforemethode" is-config="true" duration-ms="4090" started-at="2018-11-03T14:45:49Z" finished-at="2018-11-03T14:45:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Negative_FirstNameSpaces()[pri:0, instance:com.test.TestSuite.TC03_Negative_FirstNameSpaces@614ddd49]" name="Negative_FirstNameSpaces" duration-ms="3203" started-at="2018-11-03T14:45:54Z" finished-at="2018-11-03T14:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_FirstNameSpaces -->
+      </class> <!-- com.test.TestSuite.TC03_Negative_FirstNameSpaces -->
+      <class name="com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02">
+        <test-method status="PASS" signature="beforemethode(java.lang.String)[pri:0, instance:com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02@d44fc21]" name="beforemethode" is-config="true" duration-ms="4037" started-at="2018-11-03T14:47:13Z" finished-at="2018-11-03T14:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethode -->
+        <test-method status="PASS" signature="Positive_ValidPhoneNumberwithNonNumeric_02()[pri:0, instance:com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02@d44fc21]" name="Positive_ValidPhoneNumberwithNonNumeric_02" duration-ms="3672" started-at="2018-11-03T14:47:17Z" finished-at="2018-11-03T14:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Positive_ValidPhoneNumberwithNonNumeric_02 -->
+      </class> <!-- com.test.TestSuite.TC14_Positive_ValidPhoneNumberwithNonNumeric_02 -->
+    </test> <!-- MainPageValidation_Chrome -->
+  </suite> <!-- WalmartTest -->
+</testng-results>

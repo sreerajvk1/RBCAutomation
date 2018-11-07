@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WalmartTest]">
+  <test thread-count="5" verbose="0" name="MainPageValidation_Chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05">
+        <methods>
+          <include name="Positive_ValidPhoneNumberwithNonNumeric_05"/>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC17_Positive_ValidPhoneNumberwithNonNumeric_05 -->
+      <class name="com.test.TestSuite.TC07_Negative_PhoneSpaces">
+        <methods>
+          <include name="Negative_PhoneSpaces"/>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC07_Negative_PhoneSpaces -->
+      <class name="com.test.TestSuite.TC12_Negative_PhoneNumberMorelength">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+          <include name="Negative_PhoneNumberMorelength"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC12_Negative_PhoneNumberMorelength -->
+      <class name="com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01">
+        <methods>
+          <include name="Positive_ValidPhoneNumberwithNonNumeric_01"/>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC13_Positive_ValidPhoneNumberwithNonNumeric_01 -->
+      <class name="com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter">
+        <methods>
+          <include name="Negative_InvalidPhoneNumberwithCharacter"/>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC18_Negative_InvalidPhoneNumberwithCharacter -->
+      <class name="com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+          <include name="Positive_ValidPhoneNumberwithNonNumeric_04"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC16_Positive_ValidPhoneNumberwithNonNumeric_04 -->
+      <class name="com.test.TestSuite.TC11_Negative_LastNameLengthMore">
+        <methods>
+          <include name="aftertest"/>
+          <include name="Negative_LastNameLengthMore"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC11_Negative_LastNameLengthMore -->
+      <class name="com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+          <include name="Positive_ValidPhoneNumberwithNonNumeric_03"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC15_Positive_ValidPhoneNumberwithNonNumeric_03 -->
+      <class name="com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters">
+        <methods>
+          <include name="Negative_FirstNamewithNonCharacters"/>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC08_Negative_FirstNamewithNonCharacters -->
+    </classes>
+  </test> <!-- MainPageValidation_Chrome(failed) -->
+</suite> <!-- Failed suite [WalmartTest] -->

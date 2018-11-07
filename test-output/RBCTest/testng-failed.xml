@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RBCTest]">
+  <test thread-count="5" name="MainPageValidation_Chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.test.TestSuite.TC01_MagicMouse_Validation">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforemethode"/>
+          <include name="Validate_MagicMouse"/>
+        </methods>
+      </class> <!-- com.test.TestSuite.TC01_MagicMouse_Validation -->
+    </classes>
+  </test> <!-- MainPageValidation_Chrome(failed) -->
+</suite> <!-- Failed suite [RBCTest] -->

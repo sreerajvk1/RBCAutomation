@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RBCTest">
+   
+	<test name="MainPageValidation_Chrome">
+	    <parameter name ="browser" value = "CHROME"/>
+		<classes>
+		    
+			<class name="com.test.TestSuite.TC01_MagicMouse_Validation"/>
+			
+		</classes>
+	</test>
+</suite>
